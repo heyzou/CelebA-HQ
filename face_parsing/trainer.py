@@ -97,7 +97,7 @@ class Trainer(object):
             imgs = imgs.cuda()
             # ================== Train G =================== #
             labels_predict = self.G(imgs)
-                       
+
             # Calculate cross entropy loss
             c_loss = cross_entropy2d(labels_predict, labels_real_plain.long())
             self.reset_grad()
