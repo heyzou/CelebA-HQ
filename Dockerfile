@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y \
     libgl1-mesa-glx \
     build-essential \
     cmake \
+    vim \
     && apt-get clean
 
 # pipのバージョンを最新にアップグレード
