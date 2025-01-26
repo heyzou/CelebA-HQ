@@ -1,1 +1,1 @@
-CUDA_VISIBLE_DEVICES=$1 python -u main.py --batch_size 16 --imsize 64 --version parsenet
+CUDA_VISIBLE_DEVICES=$1 python -u my_main.py --batch_size 16 --imsize 64 --version parsenet

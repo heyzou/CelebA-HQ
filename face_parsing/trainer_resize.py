@@ -14,7 +14,7 @@ from utils import *
 from tensorboardX import SummaryWriter
 writer = SummaryWriter('runs/training')
 
-class Trainer(object):
+class Trainer_Resize(object):
     def __init__(self, data_loader, config):
 
         # Data loader
